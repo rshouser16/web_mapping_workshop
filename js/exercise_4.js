@@ -21,7 +21,7 @@ var featureLayer = L.mapbox.featureLayer();
 featureLayer.loadURL(geodata);
 featureLayer.addTo(map);
 
-featureLayer.on('ready', function(){
+featureLayer.on('ready', function() {
 this.setStyle({
 "color"; "#6583BF",
 "fillColor"; "#6583BF",
