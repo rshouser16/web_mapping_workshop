@@ -16,7 +16,7 @@ var map = L.mapbox.map('map', mapId);
 map.setView([39, -96], 4);
 
 // Great, now we have a basic web map!
-var geodata = 'data/parks.geojson'
+var geodata = 'data/parks.geojson';
 var featureLayer = L.mapbox.featureLayer();
 featureLayer.loadURL(geodata);
 featureLayer.addTo(map);
