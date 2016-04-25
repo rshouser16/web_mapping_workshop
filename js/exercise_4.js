@@ -30,6 +30,7 @@ featureLayer.on('ready', function() {
     })
     map.fitBounds(featureLayer.getBounds());
 });
+
 var clickHandler = function(e){
  $('#info').empty();
   var feature = e.target.feature;
@@ -49,6 +50,6 @@ layer.on('click', clickHandler);
 })
 })
 map.on('click', function(){
-  $('#info').faceOut(200);
+  $('#info').fadeOut(200);
   $('#info').empty();
 })
