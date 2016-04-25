@@ -29,7 +29,7 @@ featureLayer.on('ready', function() {
         "opacity": 0.65
     })
     map.fitBounds(featureLayer.getBounds());
-
+});
 var clickHandler = function(e){
  $('#info').empty();
   var feature = e.target.feature;
